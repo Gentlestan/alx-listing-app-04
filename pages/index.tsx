@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Layout from "@/components/layout/Layout";
 import { PropertyProps } from "@/interfaces";
 import Image from "next/image";
-import { HERO_IMAGE } from "@/constants";
+import { HERO_IMAGE } from "@/constants/property";
 import axios from "axios";
 import PropertyCard from "@/components/property/PropertyCard";
 

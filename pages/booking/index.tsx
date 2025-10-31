@@ -1,5 +1,6 @@
 import BookingForm from "@/components/booking/BookingForm";
 import OrderSummary from "@/components/booking/OrderSummary";
+import axios from "axios";
 
 export default function BookingPage() {
   const bookingDetails = {

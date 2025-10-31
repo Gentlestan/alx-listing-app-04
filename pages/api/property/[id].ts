@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { PROPERTYLISTINGSAMPLE } from "@/constants";
+import { PROPERTYLISTINGSAMPLE } from "@/constants/property";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { id } = req.query;
