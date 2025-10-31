@@ -29,7 +29,7 @@ export default function HomePage() {
     const fetchProperties = async () => {
       try {
         // ✅ Always start API path with `/`
-        const response = await axios.get("/api/properties");
+        const response = await axios.get("/api/property");
         setProperties(response.data);
       } catch (error) {
         console.error("Error fetching properties:", error);

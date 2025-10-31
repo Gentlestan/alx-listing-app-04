@@ -10,7 +10,7 @@ export default function PropertyCard({ property }: PropertyCardProps) {
     const { name, address, rating, category, price, offers, image, discount } = property;
     return (
 
-        <Link href={`/properties/${property.id}`} className="block group">
+        <Link href={`/property/${property.id}`} className="block group">
         <div className=" rounded-lg overflow-hidden shadow hover:shadow-lg transition">
         <Image
           src={image}

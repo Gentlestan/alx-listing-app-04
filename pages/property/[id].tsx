@@ -15,7 +15,7 @@ export default function PropertyDetails() {
     if (!id) return; // wait for router
     const fetchProperty = async () => {
       try {
-        const res = await axios.get(`/api/properties/${id}`);
+        const res = await axios.get(`/api/property/${id}`);
         setProperty(res.data);
       } catch (error) {
         console.error("Error fetching property:", error);
